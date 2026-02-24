@@ -18,7 +18,8 @@ export const projects: Project[] = [
     description:
       '基于 React + TypeScript + Vite + Tailwind CSS 搭建的个人作品集网站，包含首页 Hero 区、关于我、项目展示与联系方式模块，并适配深色主题与移动端。',
     techStack: ['React', 'TypeScript', 'Vite', 'Tailwind CSS'],
-    link: 'https://github.com/PGpzooo/portfolio',
+    image: '/portfolio-screenshot.png',
+    link: 'https://portfolio-neon-three-29.vercel.app/',
   },
   {
     id: '2',
