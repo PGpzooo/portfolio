@@ -13,11 +13,17 @@ export interface HeroProps {
   avatarAlt?: string
 }
 
-const defaultTitle = '你好，我是创作者'
+const defaultTitle = '你好，我是张荟玲'
 const defaultSubtitle =
   '专注产品与体验，用代码与设计把想法变成现实。这里是我的项目与思考。'
+const defaultAvatarSrc = '/avatar.png'
 
-export function Hero({ title = defaultTitle, subtitle = defaultSubtitle, avatarSrc, avatarAlt = '我' }: HeroProps) {
+export function Hero({
+  title = defaultTitle,
+  subtitle = defaultSubtitle,
+  avatarSrc = defaultAvatarSrc,
+  avatarAlt = '我',
+}: HeroProps) {
   return (
     <section
       className="relative min-h-[85vh] flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12 px-4 py-16 md:py-24 overflow-hidden"

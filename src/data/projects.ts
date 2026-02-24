@@ -14,10 +14,11 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: '1',
-    name: '示例项目 A',
-    description: '一个简洁的 Web 应用，展示响应式布局与现代交互。包含列表、筛选与详情页。',
-    techStack: ['React', 'TypeScript', 'Tailwind CSS'],
-    link: 'https://github.com',
+    name: '个人作品集网站',
+    description:
+      '基于 React + TypeScript + Vite + Tailwind CSS 搭建的个人作品集网站，包含首页 Hero 区、关于我、项目展示与联系方式模块，并适配深色主题与移动端。',
+    techStack: ['React', 'TypeScript', 'Vite', 'Tailwind CSS'],
+    link: 'https://github.com/PGpzooo/portfolio',
   },
   {
     id: '2',
